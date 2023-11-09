@@ -1,0 +1,84 @@
+@font-face {
+    font-family: '';
+    src: url('./fonts/PressStart2P-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '';
+    src: url('./fonts/Rubik-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'time';
+    src: url('./fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '';
+    src: url('./fonts/static/Rubik-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '';
+    src: url('./fonts/static/Rubik-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./fonts/static/Rubik-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '';
+    src: url('./fonts/static/Rubik-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '';
+    src: url('./fonts/static/Rubik-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '';
+    src: url('./fonts/static/Rubik-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '';
+    src: url('./fonts/static/Rubik-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Date';
+    src: url('./fonts/static/Rubik-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '';
+    src: url('./fonts/static/Rubik-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NavFont';
+    src: url('./fonts/static/Rubik-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '';
+    src: url('./fonts/static/Rubik-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '';
+    src: url('./fonts/static/Rubik-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Topic';
+    src: url('./fonts/static/Rubik-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '';
+    src: url('./fonts/static/Rubik-SemiBoldItalic.ttf') format('truetype');
+}
