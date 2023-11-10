@@ -9,7 +9,7 @@ import useIsMounted from './useIsMounted'
 
 interface CurrentPrevious {
   current: Countdown
-  previous: Countdown|null
+  previous: Countdown | null
 }
 
 interface Countdown {
@@ -44,7 +44,7 @@ const useCountdown = (endDate: DateTime): CurrentPrevious => {
       })
     }, 1000)
     return () => clearInterval(timer)
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return { previous, current }
@@ -68,7 +68,7 @@ const Countdown = (): ReactElement => {
   const defaultTime = useMemo(() => DateTime.local().plus({ days: days, hours: hours, minutes: minutes, seconds: seconds }), [])
   // const initialDate = router.query?.date ? DateTime.fromISO(Array.isArray(router.query.date) ? router.query.date[0] : router.query.date) : null
   const { current, previous } = useCountdown(
-      defaultTime
+    defaultTime
   )
 
   if (!isMounted) return <></>

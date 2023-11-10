@@ -1,6 +1,13 @@
 import TopicCard from "./ui/TopicCard"
+import './font.css'
+import './topicCard.css'
 
 export default function Topic() {
+  const styles = {
+    fontFamily: 'Date, sans-serif',
+    fontSize: '16px',
+    // color: 'black'
+  }
   return (
     <section className="relative bg-color">
       <div id="topic">
@@ -13,11 +20,11 @@ export default function Topic() {
             <div className="max-w-3xl mx-auto text-center pt-12 pb-12 md:pb-12">
               <h2 className="h2">Discussion Topic</h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               {/* First Row */}
               <div className="col-span-1 md:col-span-2 lg:col-span-3 xl:col-span-4 flex justify-center">
 
-                <div className="bg-white rounded-lg p-4 space-around m-2 shadow-md transform transition duration-300 hover:-translate-y-3 hover:shadow-lg">
+                <div className="topic_card p-4 space-around m-2  transform transition duration-300 hover:-translate-y-3 hover:shadow-lg">
                   <div className='flex items-center justify-center'>
                     <div className="bg-green-100 w-16 h-16 flex rounded-full mr-2 shadow-md transform transition duration-300 hover:-translate-y-2 hover:shadow-lg">
                       <img className="w-16 h-16 object-cover rounded-full" src="/images/speakers/7)Nena-Dokuzov.png" alt="Card Image" />
@@ -28,7 +35,7 @@ export default function Topic() {
                   </div>
                   <div className="mt-2 text-center">
                     <h3 className="text-lg font-semibold">Nena Dokuzov & Jean Charles Gaudechon</h3>
-                    <p className="text-gray-500">THE ROLE OF STABLECOINS IN A DECENTRALIZED ECOSYSTEM</p>
+                    <p className="text-gray-500" style={styles}>THE ROLE OF STABLECOINS IN A DECENTRALIZED ECOSYSTEM</p>
                   </div>
                 </div>
               </div>
@@ -98,7 +105,7 @@ export default function Topic() {
               {/* Fifth Row */}
               <div className="col-span-1 md:col-span-2 lg:col-span-3 xl:col-span-4 flex justify-center">
 
-                <div className="bg-white rounded-lg p-4 space-around m-2 shadow-md transform transition duration-300 hover:-translate-y-3 hover:shadow-lg">
+                <div className="topic_card p-4 space-around m-2 transform transition duration-300 hover:-translate-y-3 hover:shadow-lg">
                   <div className='flex items-center justify-center'>
                     <div className="bg-green-100 w-16 h-16 flex rounded-full mr-2 shadow-md transform transition duration-300 hover:-translate-y-2 hover:shadow-lg">
                       <img className="w-16 h-16 object-cover rounded-full" src="/images/speakers/3)Alex-Zinder.png" alt="Card Image" />
@@ -109,7 +116,7 @@ export default function Topic() {
                   </div>
                   <div className="mt-2 text-center">
                     <h3 className="text-lg font-semibold">Alex Zinder & Nicole Purin</h3>
-                    <p className="text-gray-500">NFT MARKET OVERVIEW: TRENDS & OPPORTUNITIES</p>
+                    <p className="text-gray-500" style={styles}>NFT MARKET OVERVIEW: TRENDS & OPPORTUNITIES</p>
                   </div>
                 </div>
               </div>

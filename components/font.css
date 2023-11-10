@@ -34,7 +34,7 @@
 }
 
 @font-face {
-    font-family: '';
+    font-family: 'ContactUs';
     src: url('./fonts/static/Rubik-ExtraBold.ttf') format('truetype');
 }
 
@@ -74,7 +74,7 @@
 }
 
 @font-face {
-    font-family: 'Topic';
+    font-family: 'title';
     src: url('./fonts/static/Rubik-SemiBold.ttf') format('truetype');
 }
 

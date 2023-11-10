@@ -63,29 +63,53 @@ export default function Header() {
               </li> */}
               <li>
                 <a href="#page-top">
-                  <span style={fontStyle} className="page-scroll inline-block relative">Home
-                    <span className="absolute bottom-0 left-0 w-full h-1 bg-blue-500 origin-left transform scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
+                  <span style={fontStyle} className="page-scroll">
+                    <span className="text-lg  inline-block relative group">
+                      Home
+                      <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-500 transform origin-bottom scale-x-0 transition-transform group-hover:scale-x-100"></span>
+                    </span>
                   </span>
                 </a>
               </li>
               <li>
                 <a href="#about">
-                  <span style={fontStyle} className="page-scroll">About Event</span>
+                  <span style={fontStyle} className="page-scroll">
+                    <span className="text-lg  inline-block relative group">
+                      About Event
+                      <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-500 transform origin-bottom scale-x-0 transition-transform group-hover:scale-x-100"></span>
+                    </span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a href="#topic">
-                  <span style={fontStyle} className="page-scroll">Topic</span>
+                  <span style={fontStyle} className="page-scroll">
+                    <span className="text-lg  inline-block relative group">
+                      Topic
+                      <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-500 transform origin-bottom scale-x-0 transition-transform group-hover:scale-x-100"></span>
+                    </span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a href="#speakers">
-                  <span style={fontStyle} className="page-scroll">Speakers</span>
+                  <span style={fontStyle} className="page-scroll">
+
+                    <span className="text-lg  inline-block relative group">
+                      Speakers
+                      <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-500 transform origin-bottom scale-x-0 transition-transform group-hover:scale-x-100"></span>
+                    </span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a href="#sponsors">
-                  <span style={fontStyle} className="page-scroll">Sponsors</span>
+                  <span style={fontStyle} className="page-scroll">
+                    <span className="text-lg  inline-block relative group">
+                      Sponsors
+                      <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-500 transform origin-bottom scale-x-0 transition-transform group-hover:scale-x-100"></span>
+                    </span>
+                  </span>
                 </a>
               </li>
               <li>
